@@ -1,0 +1,40 @@
+.DS_Store
+*.pyc
+__pycache__
+dist
+build
+docs/build
+docs/source/reference/services
+tests/cover
+tests/.coverage
+*.egg-info
+.python-version
+
+# Test state / virtualenvs
+.tox
+.coverage
+coverage.xml
+nosetests.xml
+
+# Common virtualenv names
+venv
+env2
+env3
+
+# IntelliJ / PyCharm IDE
+.idea/
+
+outputfile.txt
+token.txt
+*.out
+/Lambda/workspace/
+
+#  Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# zip files
+*.zip
