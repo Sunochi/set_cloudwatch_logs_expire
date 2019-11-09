@@ -6,8 +6,11 @@ terraform template for creating lambda and others resources to set cloudwatch ex
 
 ### Prerequisites
 
+```
 terraform >= 0.12.5
 Install guide: [Installing Terraform](https://learn.hashicorp.com/terraform/getting-started/install.html)
+python >= 3.x
+```
 
 ## Installing
 
@@ -56,12 +59,12 @@ $ terraform plan
 $ terraform apply
 ```
 
-#### Using
+### Using
 
-Default target region: ap-northeast-1
+Default target region: ap-northeast-1  
 To change region, you set environment value "TARGET_AWS_REGION".
 
-#### Delete Resources
+### Delete Resources
 
 Do in each directories. 
 ```

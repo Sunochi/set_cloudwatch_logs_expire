@@ -9,8 +9,7 @@ data "aws_region" "current" {
 
 resource "aws_cloudwatch_event_rule" "event_schedule" {
   name                = "set_cloudwatch_expire"
-  description         = "Run Lambda set_cloudwatch_expire 
-on the 1st of every month"
+  description         = "Run Lambda set_cloudwatch_expire on the 1st of every month"
   schedule_expression = "cron(00 00 1 * ? *)"
 }
 
