@@ -8,9 +8,9 @@ terraform template for creating lambda and others resources to set cloudwatch ex
 
 ```
 terraform >= 0.12.5
-Install guide: [Installing Terraform](https://learn.hashicorp.com/terraform/getting-started/install.html)
 python >= 3.x
 ```
+Terrafrom install guide: [Installing Terraform](https://learn.hashicorp.com/terraform/getting-started/install.html)
 
 ## Installing
 
